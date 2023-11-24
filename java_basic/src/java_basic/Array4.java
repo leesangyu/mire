@@ -56,7 +56,7 @@ public class Array4 {
 				total[i] = total[i] + score[i][j];
 			}
 			
-			evg[i] = (int)(total[i]/(float)SUBJECT_NUM*100+0.5f)/100f;
+			evg[i] = ((int)(total[i]/(float)SUBJECT_NUM*100+0.5f))/100f;
 		}
 		//출력
 		//    라벨
